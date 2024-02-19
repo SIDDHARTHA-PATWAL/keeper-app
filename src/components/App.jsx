@@ -1,11 +1,14 @@
+// App.jsx
 import React from "react";
-import Header from "./Header"; // Assuming Header.js is in the same directory as App.jsx
-import Footer from "./Footer"; // Assuming Footer.js is in the same directory as App.jsx
+import Header from "./Header";
+import Footer from "./Footer";
+import Note from "./Note";
 
 function App() {
     return (
         <div>
             <Header />
+            <Note  /> {/* eslint-disable-next-line */}
             <Footer />
         </div>
     );
